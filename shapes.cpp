@@ -71,11 +71,9 @@ std::string lower(int side) {
   std::string output = "";
 
   for (int i = 0; i < side; i++){
-
 		for (int f = 0; f <= i; f++){
 			output += "*";
 		}
-
 		output += "\n";
 	}
 
