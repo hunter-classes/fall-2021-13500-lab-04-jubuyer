@@ -11,6 +11,8 @@ int main () {
   std::string seperator = "\n_________________________________________\n";
   std::string mini_sep = "===================\n";
 
+  cout << "\nFunctions use width, length input (width x length)\n";
+
   //Tests for functions from lab 4
   //4A
   cout << seperator;
