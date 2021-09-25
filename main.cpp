@@ -20,5 +20,15 @@ int main () {
   cout << mini_sep << "Box test: 4x6\n";
   cout << box(4,6);
 
+  //4B
+  cout << seperator;
+  cout << "                TASK B                  " << seperator;
+  cout << "Checkerboard test: 11x6\n";
+  cout << checkerboard(11,6);
+  cout << mini_sep << "Checkerboard test: 9x8\n";
+  cout << checkerboard(9,8);
+
+  
+
   return 0;
 }
