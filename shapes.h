@@ -8,3 +8,6 @@ std::string checkerboard(int width, int height);
 
 //prototype of cross (4C)
 std::string cross(int size);
+
+//prototype of lower (4D)
+std::string lower(int size);
