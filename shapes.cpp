@@ -137,3 +137,37 @@ std::string trapezoid(int width, int height) {
 
   return output;
 }
+
+//4G
+std::string checkerboard3x3(int width, int height) {
+  std::string output = "";
+
+  int col_flag = 0;
+  int row_flag = 0;
+
+  for (int row = 1; row <= height; row++) { //rows (top to bottom)
+    for (int col = 0; col < width; col++) { //columns (left to right)
+      if ((col % 3) == 0) {
+        col_flag++;
+      }
+
+      if (((col_flag % 2) == 1) && ((row_flag % 2) == 0)) {
+        output += "*";
+      }
+      else if (((col_flag % 2) == 0) && ((row_flag % 2) == 0)) {
+        output += " ";
+      } else if (((col_flag % 2) == 1) && ((row_flag % 2) == 1)) {
+          output += " ";
+        } else if (((col_flag % 2) == 0) && ((row_flag % 2) == 1)) {
+            output += "*";
+        }
+    }
+    if ((row % 3) == 0) {
+        row_flag++;
+      }
+    col_flag = 0;
+    output += "\n";
+  }
+
+  return output;
+}
