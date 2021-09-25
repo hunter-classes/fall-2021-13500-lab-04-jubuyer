@@ -62,6 +62,16 @@ int main () {
   cout << mini_sep << "Upper test: 6\n";
   cout << upper(6);
 
+  //4F
+  cout << seperator;
+  cout << "                TASK F                  " << seperator;
+  cout << "Trapezoid test: 12x5\n";
+  cout << trapezoid(12,5); //gives trapezoid
+  cout << mini_sep << "Trapezoid test: 5x3\n";
+  cout << trapezoid(5,3); //gives triange
+  cout << mini_sep << "Trapezoid test: 12x7\n";
+  cout << trapezoid(12,7); //gives error message
+
 
   return 0;
 }
