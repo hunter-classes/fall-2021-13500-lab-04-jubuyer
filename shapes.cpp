@@ -41,3 +41,24 @@ std::string checkerboard(int width, int height) {
 
   return output;
 }
+
+std::string cross(int size) {
+  std::string output = "";
+  int first = 0;
+  int second = size - 1;
+
+  for (int row = 0; row < size; row++) { //rows (top to bottom)
+    for (int column = 0; column < size; column++) { //columns (left to right)
+      if ((column == first) || (column == second)) {
+        output += "*";
+      } else {
+        output += " ";
+      }
+    }
+    output += "\n";
+    first++;
+    second--;
+  }
+
+  return output;
+}
