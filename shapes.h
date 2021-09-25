@@ -17,3 +17,6 @@ std::string upper(int side);
 
 //protype of trapezoid (4F)
 std::string trapezoid(int width, int height);
+
+//protype of checkerboard3x3 (4G)
+std::string checkerboard3x3(int width, int height);
