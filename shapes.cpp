@@ -79,3 +79,23 @@ std::string lower(int side) {
 
   return output;
 }
+
+//4E
+std::string upper(int side) {
+  std::string output = "";
+  int space = 0;
+
+  for (int i = 0; i < side; i++) {
+    for (int j = 0; j < side; j++) {
+      if (j < space) {
+        output += " ";
+      } else if (j >= space) {
+        output += "*";
+      }
+    }
+    space++;
+    output += "\n";
+  }
+
+  return output;
+}
