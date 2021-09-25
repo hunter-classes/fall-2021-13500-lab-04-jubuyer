@@ -72,6 +72,15 @@ int main () {
   cout << mini_sep << "Trapezoid test: 12x7\n";
   cout << trapezoid(12,7); //gives error message
 
+  //4G
+  cout << seperator;
+  cout << "                TASK G                  " << seperator;
+  cout << "Checkerboard3x3 test: 16x11\n";
+  cout << checkerboard3x3(16,11);
+  cout << mini_sep << "Checkerboard3x3 test: 27x27\n";
+  cout << checkerboard3x3(27,27);
+  cout << mini_sep << "Checkerboard3x3 test: 18x13\n";
+  cout << checkerboard3x3(18,13);
 
   return 0;
 }
