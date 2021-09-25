@@ -1,3 +1,4 @@
 #pragma once
 
-//prototype
+//prototype of box (4A)
+std::string box(int width, int height);
