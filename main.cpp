@@ -28,7 +28,13 @@ int main () {
   cout << mini_sep << "Checkerboard test: 9x8\n";
   cout << checkerboard(9,8);
 
-  
+  //4C
+  cout << seperator;
+  cout << "                TASK C                  " << seperator;
+  cout << "Cross test: 8\n";
+  cout << cross(8);
+  cout << mini_sep << "Cross test: 5\n";
+  cout << cross(5);
 
   return 0;
 }
