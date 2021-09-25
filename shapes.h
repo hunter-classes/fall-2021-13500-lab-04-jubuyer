@@ -11,3 +11,6 @@ std::string cross(int size);
 
 //prototype of lower (4D)
 std::string lower(int side);
+
+//prototype of uppre (4E)
+std::string upper(int side);
