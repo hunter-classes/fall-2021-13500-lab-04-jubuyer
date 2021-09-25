@@ -1,4 +1,13 @@
 //Lab 4
+/*
+Author: Jubayer Ahmed
+Course: CSCI-135
+Instructor: Mike Zamansky
+Assignment: Lab 4
+
+Each functions description can be found in shapes.h
+*/
+
 #include <iostream>
 #include <string>
 #include "shapes.h"

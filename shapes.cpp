@@ -142,6 +142,7 @@ std::string trapezoid(int width, int height) {
 std::string checkerboard3x3(int width, int height) {
   std::string output = "";
 
+  //flags for sets of spaces or stars
   int col_flag = 0;
   int row_flag = 0;
 
