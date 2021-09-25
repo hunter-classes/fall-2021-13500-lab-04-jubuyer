@@ -19,6 +19,8 @@ int main () {
   cout << box(5,4);
   cout << mini_sep << "Box test: 4x6\n";
   cout << box(4,6);
+  cout << mini_sep << "Box test: 5x3\n";
+  cout << box(5,3);
 
   //4B
   cout << seperator;
@@ -27,6 +29,8 @@ int main () {
   cout << checkerboard(11,6);
   cout << mini_sep << "Checkerboard test: 9x8\n";
   cout << checkerboard(9,8);
+  cout << mini_sep << "Checkerboard test: 5x4\n";
+  cout << checkerboard(5,4);
 
   //4C
   cout << seperator;
@@ -35,6 +39,18 @@ int main () {
   cout << cross(8);
   cout << mini_sep << "Cross test: 5\n";
   cout << cross(5);
+  cout << mini_sep << "Cross test: 7\n";
+  cout << cross(7);
+
+  //4D
+  cout << seperator;
+  cout << "                TASK D                  " << seperator;
+  cout << "Lower test: 8\n";
+  cout << lower(8);
+  cout << mini_sep << "Lower test: 5\n";
+  cout << lower(5);
+  cout << mini_sep << "Lower test: 6\n";
+  cout << lower(6);
 
   return 0;
 }
