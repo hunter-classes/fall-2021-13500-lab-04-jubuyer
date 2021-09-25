@@ -9,7 +9,7 @@ using std::endl;
 
 int main () {
   std::string seperator = "\n_________________________________________\n";
-  std::string mini_sep = "-------------------\n";
+  std::string mini_sep = "===================\n";
 
   //Tests for functions from lab 4
   //4A
@@ -51,6 +51,17 @@ int main () {
   cout << lower(5);
   cout << mini_sep << "Lower test: 6\n";
   cout << lower(6);
+
+  //4E
+  cout << seperator;
+  cout << "                TASK E                  " << seperator;
+  cout << "Upper test: 5\n";
+  cout << upper(5);
+  cout << mini_sep << "Upper test: 3\n";
+  cout << upper(3);
+  cout << mini_sep << "Upper test: 6\n";
+  cout << upper(6);
+
 
   return 0;
 }
