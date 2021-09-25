@@ -7,4 +7,4 @@ std::string box(int width, int height);
 std::string checkerboard(int width, int height);
 
 //prototype of cross (4C)
-std::string cross(int width, int height);
+std::string cross(int size);
