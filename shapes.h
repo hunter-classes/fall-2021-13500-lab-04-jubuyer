@@ -12,5 +12,8 @@ std::string cross(int size);
 //prototype of lower (4D)
 std::string lower(int side);
 
-//prototype of uppre (4E)
+//prototype of upper (4E)
 std::string upper(int side);
+
+//protype of trapezoid (4F)
+std::string trapezoid(int width, int height);
