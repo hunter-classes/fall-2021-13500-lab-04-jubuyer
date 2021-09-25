@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 
+//4A
 std::string box(int width, int height) {
   std::string output = "";
 
@@ -15,6 +16,7 @@ std::string box(int width, int height) {
   return output;
 }
 
+//4B
 std::string checkerboard(int width, int height) {
   std::string output = "";
 
@@ -42,6 +44,7 @@ std::string checkerboard(int width, int height) {
   return output;
 }
 
+//4C
 std::string cross(int size) {
   std::string output = "";
   int first = 0;
@@ -59,6 +62,22 @@ std::string cross(int size) {
     first++;
     second--;
   }
+
+  return output;
+}
+
+//4D
+std::string lower(int side) {
+  std::string output = "";
+
+  for (int i = 0; i < side; i++){
+
+		for (int f = 0; f <= i; f++){
+			output += "*";
+		}
+
+		output += "\n";
+	}
 
   return output;
 }
