@@ -10,3 +10,8 @@ shapes.o: shapes.cpp shapes.h
 
 clean:
 	rm -f main.o shapes.o main
+
+help:
+	@echo "Targets:"
+	@echo " main : compiles files and creates main executable"
+	@echo " clean : removes object files and executable"
