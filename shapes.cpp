@@ -99,3 +99,41 @@ std::string upper(int side) {
 
   return output;
 }
+
+//4F
+std::string trapezoid(int width, int height) {
+  std::string output = "";
+  int spaces = 0;
+  int stars = width;
+  int temp = 0;
+
+  if ((width % 2) == 0) {
+    if (height > (width / 2)) {
+      output += "Impossible shape!";
+      return output;
+    }
+  } else {
+    if (height > ((width / 2) + 1)) {
+      output += "Impossible shape!";
+      return output;
+    }
+  }
+
+  for (int row = 0; row < height; row++) { //rows (top to bottom)
+    for (int column = 0; column < width; column++) { //columns (left to right)
+      if (column < spaces)  {
+        output += " ";
+      }
+      if ((column >= spaces) && (temp < stars)) {
+        output += "*";
+        temp++;
+      }
+    }
+    output += "\n";
+    temp = 0;
+    spaces++;
+    stars -= 2;
+  }
+
+  return output;
+}
