@@ -109,12 +109,12 @@ std::string trapezoid(int width, int height) {
 
   if ((width % 2) == 0) {
     if (height > (width / 2)) {
-      output += "Impossible shape!";
+      output += "Impossible shape!\n";
       return output;
     }
   } else {
     if (height > ((width / 2) + 1)) {
-      output += "Impossible shape!";
+      output += "Impossible shape!\n";
       return output;
     }
   }
