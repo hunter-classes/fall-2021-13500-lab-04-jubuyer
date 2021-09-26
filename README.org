@@ -6,8 +6,8 @@
 
 * GitHub username: jubuyer
 
-* Notes:
-
+* Notes: Function descriptions/purpose of lab tasks can be found in the
+header file (shapes.h)
 
 
 * General instructions:
